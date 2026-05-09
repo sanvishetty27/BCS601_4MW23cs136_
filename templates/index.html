@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BCS601-4MW23CS136</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="card">
+
+        <h1>Placement Readiness Checker</h1>
+
+        <p class="subtitle">Python Flask Project on Google Cloud</p>
+
+        <p class="usn">USN: 4MW23CS136</p>
+
+        <label>Aptitude Skill</label>
+        <input type="number" id="aptitude" placeholder="Enter marks out of 100">
+
+        <label>Coding Skill</label>
+        <input type="number" id="coding" placeholder="Enter marks out of 100">
+
+        <label>Communication Skill</label>
+        <input type="number" id="communication" placeholder="Enter marks out of 100">
+
+        <label>Number of Projects Completed</label>
+        <input type="number" id="projects" placeholder="Example: 2">
+
+        <label>Internship Completed?</label>
+        <select id="internship">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <button onclick="checkReadiness()">Check Readiness</button>
+
+        <div id="result">
+            Your placement readiness result will appear here.
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

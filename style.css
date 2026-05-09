@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #081229, #123456, #00c6a7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    padding: 30px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.4);
+    color: white;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #9fffe0;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #d6fff4;
+}
+
+.usn {
+    text-align: center;
+    color: #ffe680;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ffe259, #ffa751);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+#result {
+    margin-top: 22px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.35);
+    line-height: 1.7;
+}
