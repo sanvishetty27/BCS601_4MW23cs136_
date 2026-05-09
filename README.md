@@ -1,1 +1,1 @@
-www.shettysanvi2707.pythonanywhere.com
+shettysanvi2707.pythonanywhere.com
